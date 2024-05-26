@@ -3,9 +3,9 @@ import { Link as RouterLink } from "react-router-dom";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#FDF3E7"> {/* Updated background color */}
       {/* Navigation Bar */}
-      <Flex as="nav" bg="gray.100" p={4} mb={4} justifyContent="space-between" wrap="wrap">
+      <Flex as="nav" bg="#FDF3E7" p={4} mb={4} justifyContent="space-between" wrap="wrap"> {/* Updated background color */}
         <HStack spacing={8}>
           <Link as={RouterLink} to="/">Home</Link>
           <Link as={RouterLink} to="/world">World</Link>
@@ -64,7 +64,7 @@ const Index = () => {
       </VStack>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.100" p={4} mt={8}>
+      <Box as="footer" bg="#FDF3E7" p={4} mt={8}> {/* Updated background color */}
         <Flex justifyContent="space-between" wrap="wrap">
           <HStack spacing={8}>
             <Link as={RouterLink} to="/about">About</Link>
